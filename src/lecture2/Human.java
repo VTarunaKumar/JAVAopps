@@ -9,6 +9,11 @@ public class Human {
     long salary;
     boolean married;
 
+    static void message() {
+        System.out.println("Heloooo");
+//
+    }
+
     public Human(int age, String name, long salary, boolean married) {
         this.age = age;
         this.name = name;
