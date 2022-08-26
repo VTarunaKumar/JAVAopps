@@ -16,7 +16,9 @@ package lecture2.Package2;
 
 
 public class InnerClasses {
-    String name;
+<<<<<<
+    <HEAD
+            String name;
 
     public InnerClasses(String name) {
         this.name = name;
@@ -28,26 +30,40 @@ public class InnerClasses {
 
     static class InClass {
 
-        String name;
+=======
 
-        public InClass(String name) {
-            this.name = name;
+        static class InClass {
+>>>>>>>github/master
+            String name;
+
+            public InClass(String name) {
+                this.name = name;
+<<<<<<<HEAD
 
 
-        }
+            }
 
-        public static void main(String[] args) {
-            InnerClasses a = new InnerClasses("Siba");
-            InClass b = new InClass("Tarun");
+            public static void main(String[] args) {
+                InnerClasses a = new InnerClasses("Siba");
+=======
+            }
+
+            public static void main(String[] args) {
+                InClass a = new InClass("Siba");
+>>>>>>>github / master
+                InClass b = new InClass("Tarun");
 //        OutClass c = new OutClass("Okky");
-            System.out.println(a.name);
-            System.out.println(b.name);
-            System.out.println(a);
+                System.out.println(a.name);
+                System.out.println(b.name);
+<<<<<<<HEAD
+                System.out.println(a);
+=======
+>>>>>>>github / master
+
+
+            }
 
 
         }
-
-
-    }
 
 }
