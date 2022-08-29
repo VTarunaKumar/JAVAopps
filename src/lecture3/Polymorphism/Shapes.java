@@ -2,7 +2,9 @@ package lecture3.Polymorphism;
 
 public class Shapes {
     //final
-    static void area() {
+    //
+    // static
+    void area() {
         System.out.println("I am in shapes");
     }
 
